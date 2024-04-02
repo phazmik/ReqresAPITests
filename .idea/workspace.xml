@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5906916a-6bde-49bf-b816-73330854f9a9" name="Changes" comment="Add dependencies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,12 +48,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.GetUser.errorGetUserByFictitiousID.executor": "Debug",
+    "JUnit.GetUser.errorGetUserWithIncorrectTypeID.executor": "Debug",
+    "JUnit.GetUser.errorGetUserWithoutID.executor": "Debug",
+    "JUnit.GetUser.executor": "Run",
+    "JUnit.GetUser.successGetUser.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "add__autotests",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.GetUser.errorGetUserWithIncorrectTypeID">
+    <configuration name="GetUser.errorGetUserByFictitiousID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReqresAPITests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetUser" />
+      <option name="METHOD_NAME" value="errorGetUserByFictitiousID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUser.errorGetUserWithIncorrectTypeID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReqresAPITests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetUser" />
+      <option name="METHOD_NAME" value="errorGetUserWithIncorrectTypeID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUser.errorGetUserWithoutID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReqresAPITests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetUser" />
+      <option name="METHOD_NAME" value="errorGetUserWithoutID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUser.successGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReqresAPITests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetUser" />
+      <option name="METHOD_NAME" value="successGetUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetUser.errorGetUserWithIncorrectTypeID" />
+        <item itemvalue="JUnit.GetUser.errorGetUserWithoutID" />
+        <item itemvalue="JUnit.GetUser.errorGetUserByFictitiousID" />
+        <item itemvalue="JUnit.GetUser.successGetUser" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,5 +140,16 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add dependencies" />
     <option name="LAST_COMMIT_MESSAGE" value="Add dependencies" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GetUser.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
